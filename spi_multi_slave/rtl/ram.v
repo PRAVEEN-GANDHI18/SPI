@@ -31,7 +31,7 @@ module ram_1kB(
     if(~reset_n) begin
       for(int i=0;i<512;i++)begin
         for(int j=0;j<16;j++)begin
-          mem[i][j]=0;
+          mem[i][j]<=0;
         end
       end
      // mem<=0;
