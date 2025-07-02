@@ -1,0 +1,7 @@
+`include "/home/ams13/spi/rtl/slave.v"
+`include "/home/ams13/spi/rtl/master.v"
+`include "/home/ams13/spi/rtl/sclk_gen.v"
+`include "/home/ams13/spi/rtl/spi_full_duplex.v"
+`include "/home/ams13/spi/rtl/ram.v"
+`include "/home/ams13/spi/rtl/demux.v"
+`include "/home/ams13/spi/rtl/multiplex.v"
